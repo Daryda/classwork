@@ -10,7 +10,7 @@
 * -o --out выходной файл
 
 ## Пример запуска:
-$ python3 Q-Trimmomatic.py -i input_file.fa -s 10 -e 5 -w 4 -c 35 -0 output_file.fa
+$ python3 Q-Trimmomatic.py -i input_file.fastq -s 10 -e 5 -w 4 -c 35 -0 output_file.fastq
 
 В последовательности из input_file.fa будет отрезано 10 нуклеотидов сначала, 5 нуклеотидов с конца, 
 размер скользящего окна 4, порог отсечки для скользящего окна 35. Результат будет записан в output_file.fa
